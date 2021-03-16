@@ -1,0 +1,34 @@
+.App {
+  text-align: center;
+  max-width: 80vw;
+  margin: 2% auto;
+}
+.Header {
+  color: grey;
+  font-size: 3rem
+}
+/* write your parent styles in here for your App.js */
+
+.card-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.card-container .card {
+  width: 40%;
+  margin: 5%;
+  padding: 1%;
+  text-align: center;
+  line-height: 1.5;
+}
+
+.card div {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.card div > * {
+  margin: 2% 0;
+}
